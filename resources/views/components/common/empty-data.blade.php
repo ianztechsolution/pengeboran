@@ -1,0 +1,1 @@
+<div class="d-flex justify-content-{{ isset($position) ? $position : 'center' }}"><img src="{{ asset('image/empty.png') }}" title="tidak ada data" style="width: {{ isset($size) ? $size : '100%' }}"></div>

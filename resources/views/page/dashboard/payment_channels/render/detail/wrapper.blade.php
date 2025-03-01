@@ -1,0 +1,33 @@
+@extends('layouts.dashboard')
+@section('content')
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-xxl-12">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nama <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Masukkan Nama" disabled required="" value="{{ $payment_channel->name }}">
+                    </div>
+                    <div class="mb-3">
+                    <label for="description-field" class="form-label">Deskripsi</label>
+                    <textarea name="description" id="description-field" class="form-control" placeholder="Masukkan Deskripsi" disabled>{!! $payment_channel->description !!}</textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="status" class="form-label">Status <span class="text-danger">*</span></label>
+                        <select class="form-control bg-transparent w-auto" name="status" id="status2" required disabled>
+                            <option value="">-- Pilih --</option>
+                            <option value="AKTIF" {{ $payment_channel->status == 'AKTIF' ? 'selected' : '' }}>Aktif</option>
+                            <option value="TIDAK_AKTIF" {{ $payment_channel->status == 'TIDAK_AKTIF' ? 'selected' : '' }}>Tidak Aktif</option>
+                        </select>
+                    </div>
+
+                    <div class="hstack gap-2 justify-content-end mb-3">
+                        <a class="btn btn-primary" href="{{ route('dashboard.master-data.payment-channels.index') }}"> Kembali</a>
+                    </div>
+                </div><!--end col-->
+            </div><!--end row-->
+        </div>
+    </div>
+</div>
+@endsection

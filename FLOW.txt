@@ -1,0 +1,35 @@
+1. Login sebagai customer 
+   dgn email :
+   tester1@gmail.com dan password 123
+
+2. Minta Layanan dengan cara ke menu Proyek -> semua, lalu tekan icon + untuk minta layanan baru
+3. Lengkapi form lalu pencet kirim
+4. Setelah proyek berhasil ditambahkan, klik tombol edit untuk menambah layanan yang ingin diminta
+5. menuju tab layanan, tekan icon + 
+6. Lengkapi form lalu pencet kirim
+7. Login sebagai admin
+   dgn email : 
+   admin@karyajatimakmur.com dan password 123
+
+8.Menuju menu Proyek Semua atau Proyek Persetujuan Layanan
+9. Tekan icon Ubah, lalu pilih teknisi dan ubah status menjadi menunggu pembayaran lalu tekan ubah
+10. Masih di halaman ubah, tekan tab Layanan tekan tombol ubah layanan
+11. Pilih teknisi dan ubah status layanan menjadi penjadwalan
+12. tekan Kembali, lalu ke tab tagihan untuk membuat invoice
+13. tekan icon + pada tab tagihan
+14. Lengkapi formulir, pilih status belum dibayar lalu tekan tombol buat tagihan
+15. Login kembali menggunakan customer lalu sampai ke halaman ubah proyek Kembali ke tab Pembayaran
+16. Tekan tombol + 
+17. Lengkapi formulir lalu pencet konfirmasi pembayaran
+18. Login menggunakan user Admin untuk mengecek bukti pembayaran ke halaman ubah proyek lalu ke tab pembayaran
+19. tekan icon lihat pada pembayaran
+20. Lalu ubah status proyek menjadi penjadwalan, dan tekan ubah
+21. Login sebagai user teknisi
+    dgn email :
+    teknisia@karyajatimakmur.com dan password 123
+22. Menuju menu Proyek Semua atau Proyek Penjadwalan
+23. Tekan icon Ubah, lalu menuju tab layanan
+24. Pilih layanan yang dikerjakan, tekan icon ubah
+25. apabila teknisi sudah selesai mengerjakan layanan maka ubah status menjadi selesai dan unggah bukti pekerjaan, lalu tekan ubah
+26. lalu Kembali ke tab informasi proyek, ubah status menjadi selesai dan Tekan ubah
+27. Selesai
